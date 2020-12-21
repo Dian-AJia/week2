@@ -1,0 +1,27 @@
+
+<block wx:for="{{data}}" wx:key='data'>
+  <view data-id="{{item.id}}" bind:tap="click" class="box">
+    <view class="img"><image src="{{item.image}}" ></image></view>
+    <view class="text">
+      <view class="title">{{item.title}}</view>
+      <view class="content">{{item.content}}</view>
+      <view class="message">
+        <view class="reading">
+          ☞
+        {{item.reading}}
+        人浏览
+        </view>
+        <view class="like" data-id="{{item.id}}" catchtap="click">
+          收藏
+          <text>收藏数</text>
+          <text class="likecount" >{{item.collection}}</text>
+
+        </view>
+        <!-- <view class="likecount">
+          收藏数
+        </view> -->
+      </view>
+    </view>
+  </view>
+</block>
+

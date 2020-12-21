@@ -1,0 +1,36 @@
+.box{
+  display: flex;
+  padding: 30rpx;
+  border-bottom: 3rpx solid #eeeeee;
+}
+.img{
+  width: 32%;
+  height: 120rpx;
+  margin-bottom: 40rpx;
+}
+.box image{
+  width: 100%;
+  height: 120rpx;
+}
+.text{
+  width: 60%;
+  margin-left: 25rpx;
+}
+.title{
+  font-size: larger;
+  font-weight: 600;
+}
+.hr{
+background: #E0E3DA;
+ width: 98%;
+ height: 3rpx;
+}
+.content{
+  color: grey;
+}
+.message{
+  margin-top: 10rpx;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+}
